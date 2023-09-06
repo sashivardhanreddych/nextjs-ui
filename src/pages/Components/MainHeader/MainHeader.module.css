@@ -1,0 +1,155 @@
+
+.main-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #328090;
+    height: 60px;
+    padding: 0 20px;
+    color: white;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-right a {
+    text-decoration: none;
+  }
+  
+  /* Menu items styles */
+  .menu-link{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #cccccc5f;
+    text-size-adjust: auto;
+    padding: 10px;
+  }
+  .menu-link:hover{
+    background-color: #42a895;
+  }
+   /* Dropdown items styles */
+  .dropdown-content{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 80vh;
+    background-color: #429997;
+    padding: 10px 15px;
+    position: absolute;
+    top:95px;
+    left: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 50px;
+    overflow-y: scroll;
+  }
+  .dropdown-content::-webkit-scrollbar {
+    display: none;
+   }
+  .hospitals-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 20px 5px;
+  }
+  .state-box{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+
+  .spec-dropdown-content{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 80vh;
+    background-color: #429997;
+    padding: 0px 15px;
+    position: absolute;
+    top:95px;
+    left: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 50px;
+  }
+
+  .sticky-header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    background-color: #429997;
+  }
+  .specialities-container{
+    height: 100%;
+    max-height: 65vh;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+  }
+
+  .specialities-container::-webkit-scrollbar {
+    width: 5px;
+   }
+  .specialities-container::-webkit-scrollbar-track {
+    background: #85b8b7;        /* color of the tracking area */
+  }
+  
+  .specialities-container::-webkit-scrollbar-thumb {
+    background-color: blue;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(224, 224, 255);  /* creates padding around scroll thumb */
+  }
+
+   /* Menu items styles */
+  .menu-link-left-icon{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 0 5px 0 5px;
+  }
+
+  .menu-link-right-icon{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 5px 0 0 5px;
+  }
+  
+   /* Side Menu Icon styles */
+  .side-menu-icon {
+    display: flex;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    padding: 0 0 0 20px;
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .main-header{
+      height: 70px;
+      padding: 0 20px;
+      background-color: #2b7786;
+    }
+    .header-left{
+        background-color: #2b7786;
+    }
+    .side-menu-icon{
+        display: none;
+    }
+    .hidden-ele{
+        display: none;
+    }
+  }

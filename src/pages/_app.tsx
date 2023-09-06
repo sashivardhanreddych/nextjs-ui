@@ -3,10 +3,11 @@ import type { AppProps } from 'next/app'
 import { useRouter } from 'next/router';
 import Login from './login/Login';
 import Dashboard from './Dashboard/Dashboard';
+import LandingPage from './Components/LandingPage/LandingPage'
 
 // Define route configurations
 const routeConfigurations: any = {
-  '/': Login, // Default route (Login)
+  '/': LandingPage, // Default route (Login)
   '/login': Login, // Login page
   '/dashboard': Dashboard, // Dashboard page
 };
