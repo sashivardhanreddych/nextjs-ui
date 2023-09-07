@@ -206,6 +206,12 @@ export const linkData = [
 
 export const filterHospitalsData = [
   {
+    name: "",
+    specialists: [
+        ""
+    ],
+  },
+  {
       name: "Aster Aadhar Kolhapur",
       specialists: [
           "Anesthesiology",

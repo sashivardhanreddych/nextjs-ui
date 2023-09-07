@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import { filterHospitalsData } from '../../../jsondata/JsonData'
 const SearchComponent = () => {
   const [selectedOption, setSelectedOption] = useState('hospitals'); // Default option
   const [searchText, setSearchText] = useState('');
@@ -10,36 +10,33 @@ const SearchComponent = () => {
   };
 
   return (
-    <div className="flex items-center space-x-4">
-      <div className="flex flex-col">
-        <label htmlFor="searchType" className="text-gray-600 text-sm">
-          Hospital or City:
+    <div className="flex items-center justify-between flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
+      <div className="flex flex-row self-center w-1/2">
+        <label htmlFor="searchType" className="text-gray-600 text-sm mr-2 flex self-center w-full sm:w-full md:w-1/4 lg:w-1/4 xl:w-1/4 2xl:w-1/4">
+          Hospital or City :
         </label>
         <select
           id="searchType"
           name="searchType"
-          className="border p-2 rounded-md focus:outline-none"
+          className="border p-2 rounded-md w-full sm:w-full md:w-2/3 lg:w-2/3 xl:w-2/3 2xl:w-2/3 focus:outline-sky-600"
           value={selectedOption}
           onChange={(e) => setSelectedOption(e.target.value)}
         >
-          <option value="hospitals">Hospitals</option>
-          <option value="city">City</option>
-          <option value="doctor">Doctor</option>
-          <option value="speciality">Speciality</option>
+            {filterHospitalsData.map((item, index)=>(
+                <option key={index} value={item.name}>{item.name}</option>
+            ))}
         </select>
       </div>
 
-      <div className="flex-grow">
-        <label htmlFor="searchText" className="text-gray-600 text-sm">
-          {selectedOption === 'hospitals' || selectedOption === 'city'
-            ? 'Search Hospitals or City'
-            : 'Search Doctor or Speciality'}
+      <div className="flex flex-row">
+        <label htmlFor="searchText" className="text-gray-600 text-sm mr-3 flex self-center w-1/2">
+            Doctor or Speciality
         </label>
         <input
           type="text"
           id="searchText"
           name="searchText"
-          className="border p-2 rounded-md w-full focus:outline-none"
+          className="border p-2 rounded-md w-2/3 focus:outline-sky-600"
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
         />
@@ -49,7 +46,7 @@ const SearchComponent = () => {
         className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300"
         onClick={handleSearch}
       >
-        Search
+        Search <span className='font-semibold'>&#8594;</span>
       </button>
     </div>
   );

@@ -56,7 +56,7 @@ const MainHeader: React.FC<any> = () => {
         {/* <Logo /> */}
       </div>
       <div className={styles['header-right']}>
-        <Link legacyBehavior href="/our-hospitals#" onClick={handleLinkClick}>
+        {/* <Link legacyBehavior href="/our-hospitals#" onClick={handleLinkClick}> */}
           <a className={`text-white flex ${styles['menu-link']}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <span className={styles['menu-link-left-icon']}>
               <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -89,8 +89,8 @@ const MainHeader: React.FC<any> = () => {
               </svg>
             </span>
           </a>
-        </Link>
-        <Link legacyBehavior href="/our-specialities#" onClick={handleLinkClick}>
+        {/* </Link> */}
+        {/* <Link legacyBehavior href="/our-specialities#" onClick={handleLinkClick}> */}
           <a className={`text-white flex ${styles['menu-link']}`} onMouseEnter={handleSpecMouseEnter} onMouseLeave={handleSpecMouseLeave}>
             <span className={styles['menu-link-left-icon']}>
               <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -132,7 +132,7 @@ const MainHeader: React.FC<any> = () => {
               </svg>
             </span>
           </a>
-        </Link>
+        {/* </Link> */}
         <Link legacyBehavior href="/book-an-appointment" onClick={handleLinkClick}>
           <a className={`text-white flex ${styles['menu-link']}`}>Book an Appointment</a>
         </Link>
