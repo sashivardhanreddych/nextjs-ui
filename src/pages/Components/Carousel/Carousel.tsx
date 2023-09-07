@@ -56,7 +56,7 @@ const LandingCarousel = () => {
                 {">"}
             </button>
         </div>
-        <div className="absolute top-96 left-10 sm:left-14 md:left-28 lg:left-28 xl:left-28 2xl:left-28 sm:w-3/4 bg-gray-200 p-5 w-5/6"><SearchComponent /></div>
+        <div className="absolute top-96 left-10 sm:left-14 md:left-28 lg:left-28 xl:left-28 2xl:left-28 w-10/12 sm:w-3/4 md:w-10/12 lg:w-10/12 xl:w-10/12 2xl:w-11/12 bg-gray-200 p-5 w-5/6"><SearchComponent /></div>
     </div>
   );
 };
