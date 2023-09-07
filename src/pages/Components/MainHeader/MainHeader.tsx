@@ -52,7 +52,7 @@ const MainHeader: React.FC<any> = () => {
   return (
     <div className={styles['main-header']}>     
       <div className={`hidden md:flex`}>
-        Aster Hospitals
+        Avis Hospitals
         {/* <Logo /> */}
       </div>
       <div className={styles['header-right']}>

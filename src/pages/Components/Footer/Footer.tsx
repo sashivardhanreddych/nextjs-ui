@@ -92,7 +92,7 @@ const Footer: React.FC<any> = () => {
         <div className={`flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-around py-5 ${styles['foo-bottom-container']}`}>
           <div className="flex flex-col sm:flex-row items-center justify-center">
             <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row justify-center space-x-4">
-                <span>© 2020 Aster Hospitals, Inc. All rights reserved</span>
+                <span>© 2023 Avis Hospitals, Inc. All rights reserved</span>
                 <a href="#" className="text-blue-500">Privacy</a>
                 <a href="#" className="text-blue-500">Sitemap</a>
             </div>
