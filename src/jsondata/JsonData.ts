@@ -204,4 +204,164 @@ export const linkData = [
   },
 ];
 
-  
+export const filterHospitalsData = [
+  {
+      name: "Aster Aadhar Kolhapur",
+      specialists: [
+          "Anesthesiology",
+          "Aster KIND",
+          "Aster NeuKIDS",
+          "Clinical Imaging",
+          "Clinical Imaging & Interventional Radiology",
+          "Craniomaxillofacial Surgery",
+          "Critical Care Medicine",
+          "Dentistry"
+      ],
+  },
+  {
+      name: "Aster CMI Bangalore",
+      specialists: [
+          "Anesthesiology",
+          "Aster KIND",
+          "Aster NeuKIDS",
+          "Aster Nurture",
+          "Aster Wellness",
+          "Bariatric Metabolic Surgery",
+          "Behavioural Medicine",
+          "Cardiac Surgery",
+      ],
+  },
+  {
+      name: "Aster G Madegowda Hospital",
+      specialists: [
+          "Bariatric Metabolic Surgery",
+          "Behavioural Medicine",
+          "Cardiac Surgery",
+          "Cardiology",
+          "Clinical Imaging",
+          "Clinical Imaging & Interventional Radiology",
+          "Craniomaxillofacial Surgery",
+          "Critical Care Medicine",
+          "Dentistry"
+      ],
+  },
+  {
+      name: "Aster Medcity Kochi",
+      specialists: [
+          "Anesthesiology",
+          "Aster KIND",
+          "Bariatric Metabolic Surgery",
+          "Behavioural Medicine",
+          "Clinical Imaging & Interventional Radiology",
+          "Craniomaxillofacial Surgery",
+          "Critical Care Medicine",
+          "Dentistry"
+      ],
+  },
+  {
+      name: "Aster MIMS Calicut",
+      specialists: [
+          "Anesthesiology",
+          "Bariatric Metabolic Surgery",
+          "Clinical Imaging",
+          "Dentistry"
+      ],
+  },
+  {
+      name: "Aster MIMS Kannur",
+      specialists: [
+          "Anesthesiology",
+          "Aster KIND",
+          "Aster NeuKIDS",
+          "Dentistry"
+      ],
+  },
+  {
+      name: "Aster MIMS Kottakkal",
+      specialists: [
+          "Anesthesiology",
+          "Clinical Imaging",
+          "Clinical Imaging & Interventional Radiology",
+          "Craniomaxillofacial Surgery",
+          "Critical Care Medicine",
+          "Dentistry"
+      ],
+  },
+  {
+      name: "Aster Mother Areekode",
+      specialists: [
+          "Anesthesiology",
+          "Aster KIND",
+          "Dentistry"
+      ],
+  },
+  {
+      name: "Aster Narayanadri, Tirupati",
+      specialists: [
+          "Anesthesiology",
+          "Dentistry"
+      ],
+  },
+  {
+      name: "Aster PMF Kollam",
+      specialists: [
+          "Anesthesiology",
+          "Aster KIND",
+          "Dentistry"
+      ],
+  },
+  {
+      name: "Aster Prime Hyderabad",
+      specialists: [
+          "Anesthesiology",
+          "Aster KIND",
+          "Aster NeuKIDS",
+          "Clinical Imaging",
+          "Clinical Imaging & Interventional Radiology",
+          "Craniomaxillofacial Surgery",
+          "Critical Care Medicine",
+          "Dentistry"
+      ],
+  },
+  {
+      name: "Aster Ramesh Guntur",
+      specialists: [
+          "Anesthesiology",
+          "Aster KIND",
+          "Aster NeuKIDS",
+          "Aster Nurture",
+          "Aster Wellness",
+          "Bariatric Metabolic Surgery",
+          "Behavioural Medicine",
+          "Dentistry"
+      ],
+  },
+  {
+      name: "Aster Ramesh Ongole",
+      specialists: [
+          "Anesthesiology",
+          "Aster KIND",
+          "Aster NeuKIDS",
+          "Aster Nurture",
+          "Aster Wellness",
+          "Bariatric Metabolic Surgery",
+          "Behavioural Medicine",
+          "Craniomaxillofacial Surgery",
+          "Critical Care Medicine",
+          "Dentistry"
+      ],
+  },
+  {
+      name: "Aster Ramesh Vijayawada Main",
+      specialists: [
+          "Anesthesiology",
+          "Aster KIND",
+          "Aster NeuKIDS",
+          "Aster Nurture",
+          "Craniomaxillofacial Surgery",
+          "Critical Care Medicine",
+          "Dentistry"
+      ],
+  }
+];
+
