@@ -2,17 +2,19 @@ import React from 'react';
 import MiniHeader from '../MiniHeader/MiniHeader';
 import MainHeader from '../MainHeader/MainHeader';
 import LandingCarousel from '../Carousel/Carousel';
+import AboutUsLanding from '../AboutUsLanding/AboutUsLanding';
 import Footer from '../Footer/Footer';
 const LandingPage = () =>{
     return(
         <div style={{height: "100%", background: "#cd0"}}>
-         <MiniHeader />
-         <MainHeader />
+          <MiniHeader />
+          <MainHeader />
          {/* <div className="flex flex-col items-center justify-center min-h-screen"> */}
             {/* <h1 className="text-3xl font-bold mb-4">Image Carousel</h1> */}
-            <LandingCarousel />
+          <LandingCarousel />
+          <AboutUsLanding />
          {/* </div> */}
-         <Footer />
+          <Footer />
         </div>
     );
 }

@@ -371,3 +371,31 @@ export const filterHospitalsData = [
   }
 ];
 
+export const AboutAvisdata = [
+  {
+    count: 5,
+    name: "States",
+    description: "High-quality care closer to you",
+  },
+  {
+    count: 18,
+    name: "Hospitals",
+    description: "Providing world-class healthcare",
+  },
+  {
+    count: 1600,
+    name: "Doctors",
+    description: "Working together to give best medical care",
+  },
+  {
+    count: 40,
+    name: "Speciality",
+    description: "To help you live better",
+  },
+  {
+    count: "3 lac+",
+    name: "Patients",
+    description: "Treated every year",
+  },
+];
+

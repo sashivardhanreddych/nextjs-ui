@@ -4,6 +4,8 @@ const image3Path = "/images/doctor-nurses-special-equipment.jpg";
 const image4Path = "/images/successful-medical-team.jpg";
 const image5Path = "/images/young-handsome-physician-medical-robe-with-stethoscope.jpg";
 
+export const treatYouWell = "/images/successful-medical-team.jpg";
+
 export const carouselImages = [
     image1Path,
     image2Path,
