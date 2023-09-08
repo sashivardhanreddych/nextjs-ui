@@ -3,6 +3,7 @@ import MiniHeader from '../MiniHeader/MiniHeader';
 import MainHeader from '../MainHeader/MainHeader';
 import LandingCarousel from '../Carousel/Carousel';
 import AboutUsLanding from '../AboutUsLanding/AboutUsLanding';
+import OurLocations from '../OurLocations/OurLocations'
 import Footer from '../Footer/Footer';
 const LandingPage = () =>{
     return(
@@ -13,6 +14,7 @@ const LandingPage = () =>{
             {/* <h1 className="text-3xl font-bold mb-4">Image Carousel</h1> */}
           <LandingCarousel />
           <AboutUsLanding />
+          <OurLocations />
          {/* </div> */}
           <Footer />
         </div>
