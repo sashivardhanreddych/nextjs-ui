@@ -3,8 +3,11 @@ import MiniHeader from '../MiniHeader/MiniHeader';
 import MainHeader from '../MainHeader/MainHeader';
 import LandingCarousel from '../Carousel/Carousel';
 import AboutUsLanding from '../AboutUsLanding/AboutUsLanding';
-import OurLocations from '../OurLocations/OurLocations'
+import OurLocations from '../OurLocations/OurLocations';
+import CenterOfExcellence from '../CenterOfExcellence/CenterOfExcellence';
+import PatienceFeedback from '../PatienceFeedback/PatienceFeedback';
 import Footer from '../Footer/Footer';
+
 const LandingPage = () =>{
     return(
         <div style={{height: "100%", background: "#cd0"}}>
@@ -15,6 +18,8 @@ const LandingPage = () =>{
           <LandingCarousel />
           <AboutUsLanding />
           <OurLocations />
+          <CenterOfExcellence />
+          <PatienceFeedback />
          {/* </div> */}
           <Footer />
         </div>

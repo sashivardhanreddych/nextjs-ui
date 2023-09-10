@@ -1,3 +1,4 @@
+import { treatYouWell, image8268, dental, nurses, physician } from "./constantImages";
 export const hospitalsData = [
     { state: 'Kerala', hospitals: ['Hospital 1', 'Hospital 2', 'Hospital 3', 'Hospital 4', 'Hospital 5', 'Hospital 6'] },
     { state: 'Karnataka', hospitals: ['Hospital A', 'Hospital B', 'Hospital C', 'Hospital D', 'Hospital E', 'Hospital F'] },
@@ -409,7 +410,7 @@ export const ourHospitals = [
     bedsCount: 673,
     doctorCount: 112,
     specialization: 30,
-    imageUrl: "https://example.com/avis-center-image.jpg",
+    imageUrl: treatYouWell,
   },
   {
     place: "Mumbai, Maharashtra",
@@ -420,7 +421,7 @@ export const ourHospitals = [
     bedsCount: 500,
     doctorCount: 75,
     specialization: 25,
-    imageUrl: "https://example.com/city-hospital-image.jpg",
+    imageUrl: image8268,
   },
   {
     place: "Delhi, Delhi",
@@ -431,7 +432,7 @@ export const ourHospitals = [
     bedsCount: 800,
     doctorCount: 120,
     specialization: 35,
-    imageUrl: "https://example.com/medicare-hospital-image.jpg",
+    imageUrl: dental,
   },
   {
     place: "Bangalore, Karnataka",
@@ -442,7 +443,7 @@ export const ourHospitals = [
     bedsCount: 600,
     doctorCount: 90,
     specialization: 28,
-    imageUrl: "https://example.com/greenway-hospital-image.jpg",
+    imageUrl: nurses,
   },
   {
     place: "Chennai, Tamil Nadu",
@@ -453,7 +454,7 @@ export const ourHospitals = [
     bedsCount: 700,
     doctorCount: 110,
     specialization: 32,
-    imageUrl: "https://example.com/southcare-medical-center-image.jpg",
+    imageUrl: physician,
   },
   {
     place: "Hyderabad, Telangana",

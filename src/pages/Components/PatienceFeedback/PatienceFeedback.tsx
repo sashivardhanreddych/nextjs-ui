@@ -4,9 +4,10 @@ import { ourHospitals } from '../../../jsondata/JsonData';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import styles from "./OurLocations.module.css";
+import styles from "../OurLocations/OurLocations.module.css";
+// import styles from "./PatienceFeedback.module.css";
 
-const OurLocations = () => {
+const PatienceFeedback = () => {
     const sliderRef = useRef<Slider | null>(null);
 
     const settings = {
@@ -143,4 +144,4 @@ const OurLocations = () => {
   );
 };
 
-export default OurLocations;
+export default PatienceFeedback;
