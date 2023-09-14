@@ -6,6 +6,7 @@ import AboutUsLanding from '../AboutUsLanding/AboutUsLanding';
 import OurLocations from '../OurLocations/OurLocations';
 import CenterOfExcellence from '../CenterOfExcellence/CenterOfExcellence';
 import PatienceFeedback from '../PatienceFeedback/PatienceFeedback';
+import FilterSection from '../FilterSection/FilterSection';
 import Footer from '../Footer/Footer';
 
 const LandingPage = () =>{
@@ -13,14 +14,12 @@ const LandingPage = () =>{
         <div style={{height: "100%", background: "#cd0"}}>
           <MiniHeader />
           <MainHeader />
-         {/* <div className="flex flex-col items-center justify-center min-h-screen"> */}
-            {/* <h1 className="text-3xl font-bold mb-4">Image Carousel</h1> */}
-          <LandingCarousel />
+          <FilterSection />
+          {/* <LandingCarousel />
           <AboutUsLanding />
           <OurLocations />
           <CenterOfExcellence />
-          <PatienceFeedback />
-         {/* </div> */}
+          <PatienceFeedback /> */}
           <Footer />
         </div>
     );
